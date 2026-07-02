@@ -8,7 +8,7 @@ Feature: register
         Scenario: validRegister
              When user enter the first name as "gcfvhbjnk"
               And user enter the last name as "v"
-              And user enter the register email as "webybybyi9@gmail.com"
+              And user enter the register email as "mmmbybyi9@gmail.com"
               And user enter the telephone as "0987654321"
               And user enter the register password as "0987654321"
               And user enter the confirm password as "0987654321"
