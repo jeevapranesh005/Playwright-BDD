@@ -27,5 +27,11 @@ When('the user click login button', async function (this:customeworld) {
 
 Then('the user should login succesfull', async function (this:customeworld) {
    let act= this.page.locator("//a[@href='/customer/info']").first()
-   await expect(act).toHaveText("jenny04@gmail.com")
+   await expect(act).toHaveText("john6n6@gmail.com")
+});
+
+
+Then('the user should login fail', async function () {
+    let act =this.page.locator("//div[@class='validation-summary-errors']//span")
+    await expect(act).toHaveText("Login was unsuccessful. Please correct the errors and try again.")
 });

@@ -26,10 +26,10 @@ module.exports={
         dryRun:false,  //false for real automation
 
         format: [
-  "progress",
-  "progress-bar",
-  "html:reports/cucumber-report.html",
-  "json:test-results/report.json"
+            "progress",
+            "progress-bar",
+            "html:reports/cucumber-report.html",
+            "json:test-results/report.json"
 ]
 
     }
