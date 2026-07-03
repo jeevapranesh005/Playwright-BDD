@@ -31,7 +31,8 @@ module.exports={
             
             "progress-bar",
             "html:reports/multiple-html-report.html",
-            "json:reports/multiple-html-report.json"
+            "json:reports/multiple-html-report.json",
+            "rerun:@rerun.txt"
         ]
 
     }

@@ -29,7 +29,8 @@ module.exports={
             "progress",
             "progress-bar",
             "html:reports/cucumber-report.html",
-            "json:test-results/report.json"
+            "json:test-results/report.json",
+            "rerun:@rerun.txt"
 ]
 
     }

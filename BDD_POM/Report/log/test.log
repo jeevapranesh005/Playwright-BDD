@@ -1,0 +1,11 @@
+[2026-07-03T11:29:13.092Z]INFO-Launching Browser
+[2026-07-03T11:29:14.009Z]INFO-Creating Browser Context
+[2026-07-03T11:29:14.197Z]INFO-Opening Tutorial Ninja Application
+[2026-07-03T11:29:16.678Z]INFO-click the myAccount link
+[2026-07-03T11:29:16.919Z]INFO-click the login link
+[2026-07-03T11:29:17.260Z]INFO-Entering Email : johnpeters@gmail.com
+[2026-07-03T11:29:17.345Z]INFO-Entering Password
+[2026-07-03T11:29:17.364Z]INFO-Clicking Login Button
+[2026-07-03T11:29:18.354Z]INFO-Scenario : valid login
+[2026-07-03T11:29:18.354Z]INFO-Status   : PASSED
+[2026-07-03T11:29:18.354Z]INFO-Scenario Passed : valid login

@@ -1,0 +1,2 @@
+src\test\features\Registeration.feature:8
+src\test\features\ninjaLogin.feature:16

@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 625094799
+              "duration": 522174500
             }
           },
           {
@@ -27,7 +27,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 881837700
+              "duration": 1148375200
             }
           },
           {
@@ -40,7 +40,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 747723799
+              "duration": 1173640599
             }
           },
           {
@@ -53,7 +53,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 330123899
+              "duration": 308908000
             }
           },
           {
@@ -66,7 +66,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 27871900
+              "duration": 34414100
             }
           },
           {
@@ -79,7 +79,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 32586600
+              "duration": 26474600
             }
           },
           {
@@ -92,7 +92,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 33577599
+              "duration": 28297899
             }
           },
           {
@@ -105,7 +105,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 36327400
+              "duration": 31357099
             }
           },
           {
@@ -118,7 +118,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 29398399
+              "duration": 43022099
             }
           },
           {
@@ -131,7 +131,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 287532500
+              "duration": 312246500
             }
           },
           {
@@ -144,7 +144,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 196494200
+              "duration": 1036406599
             }
           },
           {
@@ -157,8 +157,8 @@
             },
             "result": {
               "status": "failed",
-              "duration": 5035843900,
-              "error_message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('#content h1')\nExpected: \u001b[32m\"Your Account Has Been Created!\"\u001b[39m\nReceived: \u001b[31m\"Register Account\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"to.have.text\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('#content h1')\u001b[22m\n\u001b[2m    - waiting for\" https://tutorialsninja.com/demo/index.php?route=account/register\" navigation to finish...\u001b[22m\n\u001b[2m    - navigated to \"https://tutorialsninja.com/demo/index.php?route=account/register\"\u001b[22m\n\u001b[2m    12 × locator resolved to <h1>Register Account</h1>\u001b[22m\n\u001b[2m       - unexpected value \"Register Account\"\u001b[22m\n\n    at captureRawStack (D:\\Expleo-Tranning\\Playwright-BDD\\BDD\\node_modules\\playwright-core\\lib\\coreBundle.js:3172:17)\n    at callMatcherAsStep (D:\\Expleo-Tranning\\Playwright-BDD\\BDD\\node_modules\\playwright\\lib\\matchers\\expect.js:12877:57)\n    at Object.toHaveText (D:\\Expleo-Tranning\\Playwright-BDD\\BDD\\node_modules\\playwright\\lib\\matchers\\expect.js:12867:23)\n    at CustomWorld.<anonymous> (D:\\Expleo-Tranning\\Playwright-BDD\\BDD\\src\\test\\steps\\ninjaregisterStep.ts:51:52)"
+              "duration": 5025750700,
+              "error_message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('#content h1')\nExpected: \u001b[32m\"Your Account Has Been Created!\"\u001b[39m\nReceived: \u001b[31m\"Register Account\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"to.have.text\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('#content h1')\u001b[22m\n\u001b[2m    13 × locator resolved to <h1>Register Account</h1>\u001b[22m\n\u001b[2m       - unexpected value \"Register Account\"\u001b[22m\n\n    at captureRawStack (D:\\Expleo-Tranning\\Playwright-BDD\\BDD\\node_modules\\playwright-core\\lib\\coreBundle.js:3172:17)\n    at callMatcherAsStep (D:\\Expleo-Tranning\\Playwright-BDD\\BDD\\node_modules\\playwright\\lib\\matchers\\expect.js:12877:57)\n    at Object.toHaveText (D:\\Expleo-Tranning\\Playwright-BDD\\BDD\\node_modules\\playwright\\lib\\matchers\\expect.js:12867:23)\n    at CustomWorld.<anonymous> (D:\\Expleo-Tranning\\Playwright-BDD\\BDD\\src\\test\\steps\\ninjaregisterStep.ts:51:52)"
             }
           },
           {
@@ -166,7 +166,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 256663399
+              "duration": 222761900
             },
             "embeddings": [
               {
@@ -183,163 +183,6 @@
           }
         ],
         "type": "scenario"
-      },
-      {
-        "description": "",
-        "id": "register;invalidregister-without-privacy-policy",
-        "keyword": "Scenario",
-        "line": 19,
-        "name": "invalidRegister without privacy policy",
-        "steps": [
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 529198899
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 4,
-            "name": "user navigate to the tutorialsninja website",
-            "match": {
-              "location": "src\\test\\steps\\ninjaregisterStep.ts:6"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 715692999
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 5,
-            "name": "user click the register link",
-            "match": {
-              "location": "src\\test\\steps\\ninjaregisterStep.ts:13"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 725516900
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 20,
-            "name": "user enter the first name as \"gcfvhbjnk\"",
-            "match": {
-              "location": "src\\test\\steps\\ninjaregisterStep.ts:18"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 284880299
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 21,
-            "name": "user enter the last name as \"v\"",
-            "match": {
-              "location": "src\\test\\steps\\ninjaregisterStep.ts:22"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 25879499
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 22,
-            "name": "user enter the register email as \"we8j9898h8jjij99@gmail.com\"",
-            "match": {
-              "location": "src\\test\\steps\\ninjaregisterStep.ts:26"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 33946200
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 23,
-            "name": "user enter the telephone as \"0987654321\"",
-            "match": {
-              "location": "src\\test\\steps\\ninjaregisterStep.ts:30"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 33030899
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 24,
-            "name": "user enter the register password as \"0987654321\"",
-            "match": {
-              "location": "src\\test\\steps\\ninjaregisterStep.ts:34"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 35825100
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 25,
-            "name": "user enter the confirm password as \"0987654321\"",
-            "match": {
-              "location": "src\\test\\steps\\ninjaregisterStep.ts:38"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 34088499
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 26,
-            "name": "user click the continue button",
-            "match": {
-              "location": "src\\test\\steps\\ninjaregisterStep.ts:46"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 691228100
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 27,
-            "name": "user should see the privacy policy warning message",
-            "match": {
-              "location": "src\\test\\steps\\ninjaregisterStep.ts:54"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 199478800
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 122111500
-            }
-          }
-        ],
-        "tags": [],
-        "type": "scenario"
       }
     ],
     "id": "register",
@@ -354,124 +197,6 @@
     "elements": [
       {
         "description": "",
-        "id": "login-a-new-user;valid-login",
-        "keyword": "Scenario",
-        "line": 8,
-        "name": "valid login",
-        "steps": [
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 557509399
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 6,
-            "name": "user lanch the application",
-            "match": {
-              "location": "src\\test\\steps\\ninjaLoginstep.ts:8"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1015810299
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 9,
-            "name": "user click myacclink",
-            "match": {
-              "location": "src\\test\\steps\\ninjaLoginstep.ts:13"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 195672499
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 10,
-            "name": "user click loginlink",
-            "match": {
-              "location": "src\\test\\steps\\ninjaLoginstep.ts:18"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 292471499
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 11,
-            "name": "user enter the email as \"johnpeters@gmail.com\"",
-            "match": {
-              "location": "src\\test\\steps\\ninjaLoginstep.ts:22"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 99682700
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 12,
-            "name": "user enter the tutorial password as \"12345\"",
-            "match": {
-              "location": "src\\test\\steps\\ninjaLoginstep.ts:26"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 27631600
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 13,
-            "name": "user click the login tutorial button",
-            "match": {
-              "location": "src\\test\\steps\\ninjaLoginstep.ts:30"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 248957500
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 14,
-            "name": "user should login success",
-            "match": {
-              "location": "src\\test\\steps\\ninjaLoginstep.ts:34"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 844487000
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 98698800
-            }
-          }
-        ],
-        "tags": [],
-        "type": "scenario"
-      },
-      {
-        "description": "",
         "id": "login-a-new-user;invalid-login",
         "keyword": "Scenario",
         "line": 16,
@@ -482,7 +207,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 474625400
+              "duration": 459493699
             }
           },
           {
@@ -491,11 +216,11 @@
             "line": 6,
             "name": "user lanch the application",
             "match": {
-              "location": "src\\test\\steps\\ninjaLoginstep.ts:8"
+              "location": "src\\test\\steps\\ninjaLoginstep.ts:9"
             },
             "result": {
               "status": "passed",
-              "duration": 1001669399
+              "duration": 1478926500
             }
           },
           {
@@ -504,11 +229,11 @@
             "line": 17,
             "name": "user click myacclink",
             "match": {
-              "location": "src\\test\\steps\\ninjaLoginstep.ts:13"
+              "location": "src\\test\\steps\\ninjaLoginstep.ts:14"
             },
             "result": {
               "status": "passed",
-              "duration": 184864699
+              "duration": 191264499
             }
           },
           {
@@ -517,11 +242,11 @@
             "line": 18,
             "name": "user click loginlink",
             "match": {
-              "location": "src\\test\\steps\\ninjaLoginstep.ts:18"
+              "location": "src\\test\\steps\\ninjaLoginstep.ts:19"
             },
             "result": {
               "status": "passed",
-              "duration": 319470900
+              "duration": 642165600
             }
           },
           {
@@ -530,11 +255,11 @@
             "line": 19,
             "name": "user enter the email as \"jok44440e@gmail.com\"",
             "match": {
-              "location": "src\\test\\steps\\ninjaLoginstep.ts:22"
+              "location": "src\\test\\steps\\ninjaLoginstep.ts:23"
             },
             "result": {
               "status": "passed",
-              "duration": 99908299
+              "duration": 97447400
             }
           },
           {
@@ -543,11 +268,11 @@
             "line": 20,
             "name": "user enter the tutorial password as \"123459h8\"",
             "match": {
-              "location": "src\\test\\steps\\ninjaLoginstep.ts:26"
+              "location": "src\\test\\steps\\ninjaLoginstep.ts:27"
             },
             "result": {
               "status": "passed",
-              "duration": 33666100
+              "duration": 32756300
             }
           },
           {
@@ -556,11 +281,11 @@
             "line": 21,
             "name": "user click the login tutorial button",
             "match": {
-              "location": "src\\test\\steps\\ninjaLoginstep.ts:30"
+              "location": "src\\test\\steps\\ninjaLoginstep.ts:31"
             },
             "result": {
               "status": "passed",
-              "duration": 236108400
+              "duration": 226539000
             }
           },
           {
@@ -569,12 +294,12 @@
             "line": 22,
             "name": "user should login failure",
             "match": {
-              "location": "src\\test\\steps\\ninjaLoginstep.ts:40"
+              "location": "src\\test\\steps\\ninjaLoginstep.ts:41"
             },
             "result": {
               "status": "failed",
-              "duration": 5009016100,
-              "error_message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('//div[@class=\\'alert alert-danger alert-dismissible\\']')\nExpected: \u001b[32m\"Warning: \u001b[7mNo match for E-Mail Address and/or Password\u001b[27m.\"\u001b[39m\nReceived: \u001b[31m\"Warning: \u001b[7mYour account has exceeded allowed number of login attempts. Please try again in 1 hour\u001b[27m.\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"to.have.text\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('//div[@class=\\'alert alert-danger alert-dismissible\\']')\u001b[22m\n\u001b[2m    - waiting for\" https://tutorialsninja.com/demo/index.php?route=account/login\" navigation to finish...\u001b[22m\n\u001b[2m    - navigated to \"https://tutorialsninja.com/demo/index.php?route=account/login\"\u001b[22m\n\u001b[2m    12 × locator resolved to <div class=\"alert alert-danger alert-dismissible\">…</div>\u001b[22m\n\u001b[2m       - unexpected value \"Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.\"\u001b[22m\n\n    at captureRawStack (D:\\Expleo-Tranning\\Playwright-BDD\\BDD\\node_modules\\playwright-core\\lib\\coreBundle.js:3172:17)\n    at callMatcherAsStep (D:\\Expleo-Tranning\\Playwright-BDD\\BDD\\node_modules\\playwright\\lib\\matchers\\expect.js:12877:57)\n    at Object.toHaveText (D:\\Expleo-Tranning\\Playwright-BDD\\BDD\\node_modules\\playwright\\lib\\matchers\\expect.js:12867:23)\n    at CustomWorld.<anonymous> (D:\\Expleo-Tranning\\Playwright-BDD\\BDD\\src\\test\\steps\\ninjaLoginstep.ts:42:24)"
+              "duration": 5015485999,
+              "error_message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('//div[@class=\\'alert alert-danger alert-dismissible\\']')\nExpected: \u001b[32m\"Warning: \u001b[7mNo match for E-Mail Address and/or Password\u001b[27m.\"\u001b[39m\nReceived: \u001b[31m\"Warning: \u001b[7mYour account has exceeded allowed number of login attempts. Please try again in 1 hour\u001b[27m.\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"to.have.text\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('//div[@class=\\'alert alert-danger alert-dismissible\\']')\u001b[22m\n\u001b[2m    - waiting for\" https://tutorialsninja.com/demo/index.php?route=account/login\" navigation to finish...\u001b[22m\n\u001b[2m    - navigated to \"https://tutorialsninja.com/demo/index.php?route=account/login\"\u001b[22m\n\u001b[2m    13 × locator resolved to <div class=\"alert alert-danger alert-dismissible\">…</div>\u001b[22m\n\u001b[2m       - unexpected value \"Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.\"\u001b[22m\n\n    at captureRawStack (D:\\Expleo-Tranning\\Playwright-BDD\\BDD\\node_modules\\playwright-core\\lib\\coreBundle.js:3172:17)\n    at callMatcherAsStep (D:\\Expleo-Tranning\\Playwright-BDD\\BDD\\node_modules\\playwright\\lib\\matchers\\expect.js:12877:57)\n    at Object.toHaveText (D:\\Expleo-Tranning\\Playwright-BDD\\BDD\\node_modules\\playwright\\lib\\matchers\\expect.js:12867:23)\n    at CustomWorld.<anonymous> (D:\\Expleo-Tranning\\Playwright-BDD\\BDD\\src\\test\\steps\\ninjaLoginstep.ts:43:24)"
             }
           },
           {
@@ -582,7 +307,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 249169499
+              "duration": 247825899
             },
             "embeddings": [
               {
