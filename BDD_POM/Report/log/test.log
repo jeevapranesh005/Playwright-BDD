@@ -9,3 +9,36 @@
 [2026-07-03T11:29:18.354Z]INFO-Scenario : valid login
 [2026-07-03T11:29:18.354Z]INFO-Status   : PASSED
 [2026-07-03T11:29:18.354Z]INFO-Scenario Passed : valid login
+[2026-07-03T11:42:13.049Z]INFO-Launching Browser
+[2026-07-03T11:42:13.424Z]INFO-Creating Browser Context
+[2026-07-03T11:42:13.659Z]INFO-Opening Tutorial Ninja Application
+[2026-07-03T11:42:15.463Z]INFO-click the myAccount link
+[2026-07-03T11:42:16.030Z]INFO-click the login link
+[2026-07-03T11:42:16.305Z]INFO-Entering Email : johnpeters@gmail.com
+[2026-07-03T11:42:16.362Z]INFO-Entering Password
+[2026-07-03T11:42:16.388Z]INFO-Clicking Login Button
+[2026-07-03T11:42:17.950Z]INFO-Scenario : valid login
+[2026-07-03T11:42:17.950Z]INFO-Status   : PASSED
+[2026-07-03T11:42:17.951Z]INFO-Scenario Passed : valid login
+[2026-07-03T11:42:47.372Z]INFO-Launching Browser
+[2026-07-03T11:42:47.668Z]INFO-Creating Browser Context
+[2026-07-03T11:42:47.838Z]INFO-Opening Tutorial Ninja Application
+[2026-07-03T11:42:49.636Z]INFO-click the myAccount link
+[2026-07-03T11:42:50.191Z]INFO-click the login link
+[2026-07-03T11:42:50.388Z]INFO-Entering Email : johnpeters@gmail.com
+[2026-07-03T11:42:50.431Z]INFO-Entering Password
+[2026-07-03T11:42:50.449Z]INFO-Clicking Login Button
+[2026-07-03T11:42:51.367Z]INFO-Scenario : valid login
+[2026-07-03T11:42:51.367Z]INFO-Status   : PASSED
+[2026-07-03T11:42:51.367Z]INFO-Scenario Passed : valid login
+[2026-07-03T11:43:58.023Z]INFO-Launching Browser
+[2026-07-03T11:43:58.367Z]INFO-Creating Browser Context
+[2026-07-03T11:43:58.536Z]INFO-Opening Tutorial Ninja Application
+[2026-07-03T11:44:00.348Z]INFO-click the myAccount link
+[2026-07-03T11:44:00.937Z]INFO-click the login link
+[2026-07-03T11:44:01.120Z]INFO-Entering Email : johnpeters@gmail.com
+[2026-07-03T11:44:01.175Z]INFO-Entering Password
+[2026-07-03T11:44:01.204Z]INFO-Clicking Login Button
+[2026-07-03T11:44:02.380Z]INFO-Scenario : valid login
+[2026-07-03T11:44:02.381Z]INFO-Status   : PASSED
+[2026-07-03T11:44:02.381Z]INFO-Scenario Passed : valid login

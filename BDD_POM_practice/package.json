@@ -1,16 +1,13 @@
 {
-  "name": "bdd_pom",
+  "name": "bdd_pom_practice",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "cucumber-js",
-    "smoke": "cucumber-js src/test/features --tags @smoke",
-    "regression": "cucumber-js src/test/features --tags @regression",
-    "parallel": "cucumber-js src/test/features --parallel 4",
-    "failed": "cucumber-js @rerun.txt",
-    "ci": "cucumber-js src/test/features --tags @smoke --format json:test-results/report.json",
-    "report": "ts-node ./src/test/utilities/report.ts"
+    "test:paralle": "cucumber-js ./src/test/feature --paralle 4",
+    "rerun":"cucumber-js @rerun/rerun.txt",
+    "report": "ts-node ./src/test/utilites/report.ts"
   },
   "keywords": [],
   "author": "",

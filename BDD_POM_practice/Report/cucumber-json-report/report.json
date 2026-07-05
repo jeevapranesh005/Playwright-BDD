@@ -1,0 +1,433 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "add-product-to-cart;add-samsung-galaxy-s6-to-cart",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Add Samsung Galaxy S6 to cart",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 275044399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the user launches the application",
+            "match": {
+              "location": "src\\test\\steps\\cartstep.ts:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1530591500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "the user clicks on \"Samsung galaxy s6\"",
+            "match": {
+              "location": "src\\test\\steps\\cartstep.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1258252599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "the user clicks Add to cart",
+            "match": {
+              "location": "src\\test\\steps\\cartstep.ts:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4404783199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "the user accepts the product added alert",
+            "match": {
+              "location": "src\\test\\steps\\cartstep.ts:23"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 14227000,
+              "error_message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"Product added\u001b[7m.\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"Product added\"\u001b[39m\n    at captureRawStack (D:\\Expleo-Tranning\\Playwright-BDD\\BDD_POM_practice\\node_modules\\playwright-core\\lib\\coreBundle.js:3172:17)\n    at callMatcherAsStep (D:\\Expleo-Tranning\\Playwright-BDD\\BDD_POM_practice\\node_modules\\playwright\\lib\\matchers\\expect.js:12877:57)\n    at Object.toBe (D:\\Expleo-Tranning\\Playwright-BDD\\BDD_POM_practice\\node_modules\\playwright\\lib\\matchers\\expect.js:12867:23)\n    at World.<anonymous> (D:\\Expleo-Tranning\\Playwright-BDD\\BDD_POM_practice\\src\\test\\steps\\cartstep.ts:25:34)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "the user opens the Cart page",
+            "match": {
+              "location": "src\\test\\steps\\cartstep.ts:29"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "the product \"Samsung galaxy s6\" should be displayed in the cart",
+            "match": {
+              "location": "src\\test\\steps\\cartstep.ts:35"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 390741399
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "add-product-to-cart",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Add Product to Cart",
+    "tags": [],
+    "uri": "src\\test\\feature\\cart.feature"
+  },
+  {
+    "description": "Feature Description",
+    "elements": [
+      {
+        "description": "",
+        "id": "login-with-valid-details;login-with-valid-details",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "login with valid details",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 273375399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "the user  is launchthe application",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1694555099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "the user click the loginLink",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 165380000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "the user enter the valid details",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 185903199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "the user click the loginBtn",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1438781500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "the user seen the welcom page",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1445962999
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 89107899
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-with-valid-details;login-with-invalid-details",
+        "keyword": "Scenario Outline",
+        "line": 22,
+        "name": "login with invalid details",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 240808600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "the user  is launchthe application",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2674730700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "the user click the loginLink",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 101499199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "the user enter the user name as \"jeeva\"",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 173965500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "the user enter the password as \"dfui7b\"",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 21899800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "the user click the loginBtn",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1281943699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "the user seen the fail message",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:38"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 3180500,
+              "error_message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"Wrong password.\"\u001b[39m\nReceived: \u001b[31m\"\"\u001b[39m\n    at captureRawStack (D:\\Expleo-Tranning\\Playwright-BDD\\BDD_POM_practice\\node_modules\\playwright-core\\lib\\coreBundle.js:3172:17)\n    at callMatcherAsStep (D:\\Expleo-Tranning\\Playwright-BDD\\BDD_POM_practice\\node_modules\\playwright\\lib\\matchers\\expect.js:12877:57)\n    at Object.toBe (D:\\Expleo-Tranning\\Playwright-BDD\\BDD_POM_practice\\node_modules\\playwright\\lib\\matchers\\expect.js:12867:23)\n    at World.<anonymous> (D:\\Expleo-Tranning\\Playwright-BDD\\BDD_POM_practice\\src\\test\\steps\\loginstep.ts:40:34)"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 554492200
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-with-valid-details;login-with-invalid-details",
+        "keyword": "Scenario Outline",
+        "line": 23,
+        "name": "login with invalid details",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 271255699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "the user  is launchthe application",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1482211100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "the user click the loginLink",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 143717700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "the user enter the user name as \"john\"",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 169312500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "the user enter the password as \"peter456\"",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 24762200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "the user click the loginBtn",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1286482000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "the user seen the fail message",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2359799
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 71424600
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "login-with-valid-details",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "login with valid details",
+    "tags": [],
+    "uri": "src\\test\\feature\\login.feature"
+  }
+]
