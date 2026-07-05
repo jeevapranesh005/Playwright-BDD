@@ -15,7 +15,7 @@
     "cucumber",
     "bdd"
   ],
-  "author": "Prasanna Venkatesh K",
+  "author": "jeeva Pranesh P",
   "license": "ISC",
   "type": "commonjs",
   "devDependencies": {
@@ -23,6 +23,8 @@
     "@faker-js/faker": "^10.5.0",
     "@playwright/test": "^1.61.1",
     "@types/node": "^26.1.0",
+    "allure-commandline": "^2.43.0",
+    "allure-cucumberjs": "^3.10.2",
     "csv-parse": "^7.0.1",
     "ts-node": "^10.9.2",
     "typescript": "^5.9.2"

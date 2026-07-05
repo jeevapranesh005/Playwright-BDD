@@ -38,6 +38,7 @@ module.exports = {
     format: [
       "progress",
       "json:reports/rerun-cucumber-report.json",
+       "allure-cucumberjs/reporter",
       "html:reports/rerun-cucumber-report.html"
     ],
 
