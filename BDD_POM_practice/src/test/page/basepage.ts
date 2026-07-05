@@ -23,4 +23,7 @@ export class basepage{
     async getText(locator:Locator){
         await locator.textContent()
     }
+    async scroll(locaor:Locator){
+        await locaor.scrollIntoViewIfNeeded()
+    }
 }

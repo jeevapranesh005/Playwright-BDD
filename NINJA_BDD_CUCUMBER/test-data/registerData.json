@@ -1,0 +1,16 @@
+{
+  "valid": {
+    "firstName": "John",
+    "lastName": "Doe",
+    "telephone": "9876543210",
+    "password": "Test@123"
+  },
+
+  "invalid": {
+    "firstName": "John",
+    "lastName": "Doe",
+    "email": "existinguser@test.com",
+    "telephone": "9876543210",
+    "password": "Test@123"
+  }
+}

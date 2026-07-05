@@ -1,0 +1,237 @@
+[
+  {
+    "description": "  Description: Registration Module using JSON and Faker",
+    "elements": [
+      {
+        "description": "",
+        "id": "register-test;valid-registration-using-faker-and-json-data",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Valid registration using Faker and JSON data",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 287771200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "the user is on the Home page",
+            "match": {
+              "location": "src\\step-definition\\LoginStep.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2033667800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "user clicks on the myAccount link",
+            "match": {
+              "location": "src\\step-definition\\LoginStep.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 119659200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "user clicks on the register link",
+            "match": {
+              "location": "src\\step-definition\\RegisterStep.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 316633700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "user enters registration details from JSON \"valid\" and generates random email",
+            "match": {
+              "location": "src\\step-definition\\RegisterStep.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 292709799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "user accepts the privacy policy",
+            "match": {
+              "location": "src\\step-definition\\RegisterStep.ts:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 55477799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "user clicks on the continue button",
+            "match": {
+              "location": "src\\step-definition\\RegisterStep.ts:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1582473799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "user should be registered successfully",
+            "match": {
+              "location": "src\\step-definition\\RegisterStep.ts:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 44039699
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 22860099
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "register-test;invalid-registration-using-json-data",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Invalid registration using JSON data",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 75944900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "the user is on the Home page",
+            "match": {
+              "location": "src\\step-definition\\LoginStep.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1341486500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "user clicks on the myAccount link",
+            "match": {
+              "location": "src\\step-definition\\LoginStep.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 85999600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "user clicks on the register link",
+            "match": {
+              "location": "src\\step-definition\\RegisterStep.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 271181000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "user enters registration details from JSON \"invalid\" and generates random email",
+            "match": {
+              "location": "src\\step-definition\\RegisterStep.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 453654400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "user clicks on the continue button",
+            "match": {
+              "location": "src\\step-definition\\RegisterStep.ts:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 80824000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "error messages should be displayed for mandatory fields",
+            "match": {
+              "location": "src\\step-definition\\RegisterStep.ts:43"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3691000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 33320100,
+              "error_message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: locator('//div[text()=\\'Warning: E-Mail Address is already registered!\\']')\nExpected: \u001b[32m\"Warning: E-Mail Address is already registered!\"\u001b[39m\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"to.have.text\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('//div[text()=\\'Warning: E-Mail Address is already registered!\\']')\u001b[22m\n\n    at captureRawStack (D:\\Expleo-Tranning\\Playwright-BDD\\Project-structure\\node_modules\\playwright-core\\lib\\coreBundle.js:3172:17)\n    at callMatcherAsStep (D:\\Expleo-Tranning\\Playwright-BDD\\Project-structure\\node_modules\\playwright\\lib\\matchers\\expect.js:12877:57)\n    at Object.toHaveText (D:\\Expleo-Tranning\\Playwright-BDD\\Project-structure\\node_modules\\playwright\\lib\\matchers\\expect.js:12867:23)\n    at customeWorld.<anonymous> (D:\\Expleo-Tranning\\Playwright-BDD\\Project-structure\\src\\step-definition\\RegisterStep.ts:47:17)"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "register-test",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Register Test",
+    "tags": [],
+    "uri": "src\\features\\register.feature"
+  }
+]

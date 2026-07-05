@@ -1,0 +1,30 @@
+[2026-07-03T11:30:11.792Z] INFO - Browser Launched successfully
+[2026-07-03T11:30:12.428Z] INFO - User enters the password
+[2026-07-03T11:30:15.159Z] INFO - Browser Launched successfully
+[2026-07-03T11:30:15.515Z] INFO - User enters the password
+[2026-07-05T17:37:07.249Z] INFO - Browser Launched successfully
+[2026-07-05T17:37:07.892Z] INFO - User entered valid credentials from CSV
+[2026-07-05T17:37:12.166Z] INFO - Browser Launched successfully
+[2026-07-05T17:37:12.818Z] INFO - User entered invalid credentials from CSV
+[2026-07-05T17:37:16.131Z] INFO - Browser Launched successfully
+[2026-07-05T17:37:17.735Z] INFO - User entered registration details from JSON for key: valid
+[2026-07-05T17:37:22.114Z] INFO - Browser Launched successfully
+[2026-07-05T17:37:23.708Z] INFO - User entered registration details from JSON for key: invalid
+[2026-07-05T17:37:31.415Z] INFO - Browser Launched successfully
+[2026-07-05T17:37:34.487Z] INFO - Browser Launched successfully
+[2026-07-05T17:37:48.101Z] INFO - Browser Launched successfully
+[2026-07-05T17:54:49.872Z] INFO - Browser Launched successfully
+[2026-07-05T17:54:50.826Z] INFO - User entered valid credentials from CSV
+[2026-07-05T17:54:56.773Z] INFO - Browser Launched successfully
+[2026-07-05T17:54:57.577Z] INFO - User entered invalid credentials from CSV
+[2026-07-05T17:55:12.251Z] INFO - Browser Launched successfully
+[2026-07-05T17:55:16.389Z] INFO - User entered registration details from JSON for key: valid
+[2026-07-05T17:55:36.353Z] INFO - Browser Launched successfully
+[2026-07-05T17:55:39.507Z] INFO - User entered registration details from JSON for key: invalid
+[2026-07-05T17:55:54.470Z] INFO - Browser Launched successfully
+[2026-07-05T17:56:12.177Z] INFO - Browser Launched successfully
+[2026-07-05T17:56:26.323Z] INFO - Browser Launched successfully
+[2026-07-05T18:05:08.786Z] INFO - Browser Launched successfully
+[2026-07-05T18:05:09.521Z] INFO - User entered registration details from JSON for key: valid
+[2026-07-05T18:05:12.648Z] INFO - Browser Launched successfully
+[2026-07-05T18:05:13.460Z] INFO - User entered registration details from JSON for key: invalid

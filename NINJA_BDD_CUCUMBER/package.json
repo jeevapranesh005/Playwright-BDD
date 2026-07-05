@@ -1,0 +1,35 @@
+{
+  "name": "demoweb-shop",
+  "version": "1.0.0",
+  "description": "Demo Web Shop BDD automation framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js",
+    "test:failed": "cucumber-js -p rerun",
+    "debug": "set DEBUG=pw:api&& cucumber-js"
+  },
+  "keywords": [
+    "rerun",
+    "automation",
+    "playwright",
+    "cucumber",
+    "bdd"
+  ],
+  "author": "Prasanna Venkatesh K",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@cucumber/cucumber": "^12.9.0",
+    "@faker-js/faker": "^10.5.0",
+    "@playwright/test": "^1.61.1",
+    "@types/node": "^26.1.0",
+    "csv-parse": "^7.0.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "@types/winston": "^2.4.4",
+    "dotenv": "^17.4.2",
+    "multiple-cucumber-html-reporter": "^3.8.0"
+  }
+}

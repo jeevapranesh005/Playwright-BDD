@@ -2,8 +2,10 @@ import { Before,After,BeforeAll, AfterAll } from "@cucumber/cucumber";
 import { customeWorld } from "../world/customeWorld";
 import { Browser, chromium } from "@playwright/test";
 import { login } from "../page/loginpage";
-import {CartPage} from '../page/cartpage'
+
 import { logger } from "../utilites/logger";
+import { home } from "../page/homePage";
+import { product } from "../page/productPage";
 
 
 let browser:Browser;
@@ -17,7 +19,9 @@ Before(async function(this:customeWorld){
     this.context = await this.browser.newContext()
     this.page = await this.context.newPage()
     this.lp = new login(this.page)
-    this.cp = new CartPage(this.page);
+    this.hp=new home(this.page)
+    this.product= new product(this.page)
+ 
 })
 
 After(async function(this:customeWorld,scenario){
